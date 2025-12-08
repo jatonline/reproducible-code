@@ -3,8 +3,8 @@
 cff-version: 1.2.0
 title: Guide to Reproducible Code
 message: >-
-  If you use this software, please cite it using the
-  metadata from this file. Note that Natalie Cooper and Pen-Yuan Hsing are the editors of this guide but are listed along with the authors because of limitations to the CITATION.cff format. The publisher of this guide is the British Ecological Society.
+  If you use this guide, please cite it using the
+  metadata from `CITATION.cff`. Note that Natalie Cooper and Pen-Yuan Hsing are the editors of this guide but are listed along with the authors because of limitations to the `CITATION.cff` format. The publisher of this guide is the British Ecological Society.
 type: software
 authors: 
   - given-names: Natalie
