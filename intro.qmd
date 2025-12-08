@@ -31,7 +31,8 @@ We avoid directly recommending these tools in this guide for the following reaso
 1. The appearance of intelligence of these tools risks causing "illusions of understanding"[^3].
 2. They reduce reproducibility. Large language models (LLMs) like ChatGPT are proprietary black boxes designed with a certain degree of inbuilt randomness, which makes it impossible to reproduce their outputs.
 3. They can have massive environmental costs (including energy and water consumption).
-4. The obscurity of their source and function can lead to the exploitation of hidden workers, deepening the global divide and displacing (not replacing) labour and preventing proper attribution of credit.
+4. The functionality of these opaque tools relies on the
+exploitation of hidden workers, deepening the global divide and displacing (not replacing) labour and preventing proper attribution of credit.
 :::
 
 ## A simple reproducible project workflow

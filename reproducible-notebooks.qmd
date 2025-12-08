@@ -4,15 +4,15 @@ A reproducible notebook is a digital document that combines text, code and resul
 
 ## Why use a reproducible notebook?
 
-When you use a reproducible notebook, you make your work much clearer and easier to understand for both yourself and others. These notebooks let you show every step you took to get your results, from the raw data all the way to the final charts and tables (see @sec-organising-projects). Because your code and explanations are together in one place, anyone reading your notebook can see exactly how you did your analysis, which makes your work more trustworthy and transparent. If you ever need to update your data or fix a mistake, you can change the data or code, and the notebook will automatically update all the results and figures for you. This saves a lot of time and helps avoid errors.
+Using a reproducible notebook makes your work much clearer and easier to understand for both yourself and others. These notebooks let you show every step you took to get your results, from the raw data all the way to the final charts and tables (see @sec-organising-projects). Because your code and explanations are together in one place, anyone reading your notebook can see exactly how you did your analysis, which makes your work more trustworthy and transparent. If you ever need to update your data or fix a mistake, you can change the data or code, and the notebook will automatically update all the results and figures for you. This saves a lot of time and helps avoid errors.
 
 Using reproducible notebooks also reduces mistakes introduced when copying and pasting between different software programs. They help keep your results and models synchronised, so you always know which code produced which output. You can also give readers more insight into your research process by including details about different approaches or analyses you tried before reaching your results. These extra details can be added as supplementary material or tracked in your version control system (see @sec-version-control), making your work even more open and robust.
 
-You can create reproducible notebooks using tools like Quarto and Jupyter. Both are language agnostic, meaning you can use R, Python, Julia and other languages in the same document. In this section, we will focus on Quarto.
+You can create reproducible notebooks using tools like [Quarto](https://quarto.org) and [Jupyter](https://jupyter.org). Both are language agnostic, meaning you can use R, Python, Julia and other languages in the same document. In this section, we will focus on Quarto.
 
 ## What is Quarto?
 
-Quarto is a modern, open source tool for creating reproducible notebooks and technical documents. You can mix text (written in Markdown), code (Python, R, Julia, etc.) and outputs like plots and tables. Quarto documents can be turned into polished reports, websites, PDFs, slides and more, all from a single source file.
+[Quarto](https://quarto.org) is a modern, open source tool for creating reproducible notebooks and technical documents. You can mix text (written in Markdown), code (Python, R, Julia, etc.) and outputs like plots and tables. Quarto documents can be turned into polished reports, websites, PDFs, slides and more, all from a single source file.
 
 Quarto helps you keep your code, results and explanations together so others can see exactly how you did your analysis and can easily reproduce or build on your work.
 

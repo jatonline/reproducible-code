@@ -56,8 +56,8 @@ The details of this depend on your combination of IDE and programming language. 
 
 Just like when naming your files (see @sec-organising-projects), use clear and descriptive names for files, variables, functions and modules. The goal of a good naming convention is that it is immediately clear to the reader what is behind any file or object. For objects in your codebase, you can follow these tips:
 
-- **Concise and Descriptive**: Variable names are usually nouns and function names are verbs (see also in the next section).
-- **Avoid Conflicts**: Don't use names of existing variables or functions unless you are intentionally extending or overriding them (e.g. when developing an R package or a new method in Julia).
+- **Concise and descriptive**: Variable names are usually nouns and function names are verbs (see also in the next section).
+- **Avoid conflicts**: Don't use names of existing variables or functions unless you are intentionally extending or overriding them (e.g. when developing an R package or a new method in Julia).
 - **Use consistent capitalisation rules**: Each language community has a preferred naming style (e.g., `snake_case` for Python and R, `lowerCamelCase` for JavaScript).
 - **Develop rules and document them**: You can develop your own conventions where it is useful. This can include things like when and how to use abbreviations or rules on how you name your functions (e.g. you might want to prefix all your helper functions with `zzz_` to mark them as helper functions).
 
@@ -73,7 +73,7 @@ Just like when naming your files (see @sec-organising-projects), use clear and d
 `temperature_readings`, `user_data`, `read_data`, `run_binomial_model`
 :::
 
-It is good practice to establish and follow a naming convention throughout a project. It also helps to document your conventions and naming logic in the readme file of your project. This way, it is easy for collaborators to read and understand your code but also to contribute using the same style.
+It is good practice to establish and follow a naming convention throughout a project. It also helps to document your conventions and naming logic in the `README` file of your project. This way, it is easy for collaborators to read and understand your code but also to contribute using the same style.
 
 ### Comment your code {#sec-comment-your-code}
 
@@ -294,7 +294,7 @@ install.packages("renv")
 renv::init()
 ```
 
-In **Python**, you can use `pip` and `venv` to manage dependencies. Specifically, `venv` (a standard package shipped with Python 3[^13] supports lightweight ‘virtual environments’ that hosts its own set of independent packages. Here’s the command for creating a virtual environment and install packages within that environment with `pip` (which are listed in a file named `requirements.txt`):
+In **Python**, you can use `pip` and `venv` to manage dependencies. Specifically, `venv` (a standard package shipped with Python 3[^13]) supports lightweight ‘virtual environments’ that hosts its own set of independent packages. Here’s the command for creating a virtual environment and install packages within that environment with `pip` (which are listed in a file named `requirements.txt`):
 
 ```{bash}
 #| eval: false
