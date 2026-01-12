@@ -2,9 +2,6 @@ project:
   type: book
   output-dir: _book
 
-execute:
-  freeze: auto
-
 book:
   title: "BES Guide to Reproducible Code"
   reader-mode: true
